@@ -1,13 +1,25 @@
-# Agentathon
+# Agentathon — RIT Dept. of AI & Data Science
 
-This repository contains only the participant-facing files for the hackathon.
+Welcome to the Agentathon hackathon.
 
-## Files
-- `problem_statement.md` - the challenge brief and submission rules
-- `train_data.csv` - the training/development dataset
-- `output_format.txt` - the required output format for `output.txt`
+## Files in this repo
 
-## What participants should do
-1. Read `problem_statement.md`.
-2. Build and test your agent using `train_data.csv`.
-3. Submit a plain text file named `output.txt` in the format described in `output_format.txt`.
+| File | What it is |
+|------|------------|
+| `problem_statement.md` | Read this first. Full challenge details. |
+| `train_data.csv` | Your development dataset (3,500 rows) |
+| `output_format.txt` | Exact format your agent must produce |
+
+## Quick start
+
+1. Read `problem_statement.md` completely.
+2. Build your agent using `train_data.csv`.
+3. Your agent must output a file called `output.txt` in the format shown in `output_format.txt`.
+4. At the 3-hour mark, you will receive new test data. Run your agent on it unchanged.
+
+## Allowed tools
+- Any Python framework (CrewAI, AutoGen, LangGraph, Google ADK, or plain Python)
+- Local models via Ollama (no API key needed)
+- Cloud APIs (bring your own key)
+
+Good luck.
